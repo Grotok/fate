@@ -1,0 +1,91 @@
+body,
+html,
+h1 {
+    margin: 0;
+}
+
+body {
+    background: black;
+    font-family: 'Dosis', sans-serif;
+    overflow-y: auto;
+}
+
+p {
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-rows: 1fr auto 1fr;
+    justify-content: center;
+    align-content: center;
+}
+
+.nightmare {
+    text-align: center;
+    background-color: blueviolet;
+    font-size: 3em;
+    padding: .5em;
+    font-family: fantasy;
+    letter-spacing: .1em;
+    text-shadow: 3px 3px 3px rgb(185, 110, 255);
+    z-index: 5;
+    position: fixed;
+    box-shadow: 3px 3px 3px rgb(185, 110, 255);
+}
+
+.fates {
+    text-align: center;
+    letter-spacing: .1em;
+    font-family: fantasy;
+    text-shadow: 2px 2px 2px rgb(172, 96, 243);
+    margin-top: 0;
+}
+
+.fate {
+    font-size: 1.5em;
+    font-weight: 600;
+    line-height: 1.5em;
+    padding: .2em;
+}
+
+ul {
+    list-style-type: upper-roman;
+    
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+a:hover:active {
+    text-decoration: none;
+    text-shadow: 1px 1px 1px rgb(180, 64, 238);
+    font-size: 1.5em;
+}
+
+a:hover {
+    text-decoration: none;color: black;
+    font-size: 1.6em;
+    text-shadow: 2px 2px 2px rgb(180, 64, 238);
+}
+
+.story {
+    background-color: rgb(92, 49, 133);
+    margin: 2em 7em;
+    padding: 5em;
+    border-radius: 2em;
+    box-shadow: 3px 3px 3px rgb(185, 110, 255);
+}
+
+/*.footer {
+    text-align: center;
+    background-color: blueviolet;
+}*/
