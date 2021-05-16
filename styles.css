@@ -101,7 +101,29 @@ a:hover {
     bottom: 80px;
 }
 
-/*.footer {
-    text-align: center;
-    background-color: blueviolet;
-}*/
+@media screen and (max-width: 600px) {
+    .nightmare {
+        font-size: 2em;
+        top: 0px;
+        margin-bottom: .5em;
+    }
+
+    .story {
+        padding: 1.2em;
+        margin: 5em 1em;
+        margin-top: 6em;
+        margin-bottom: 1em;
+        font-size: .9em;
+    }
+
+    .skull {
+        height: 10em;
+        width: 10em;
+    }
+
+    .fate {
+        font-size: 1.5em;
+        font-weight: 600;
+        line-height: 1.3em;
+    }
+}
