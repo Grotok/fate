@@ -39,31 +39,46 @@ header {
     z-index: 5;
     box-shadow: 5px 5px 3px rgb(185, 110, 255);
     position: relative;
-    top: 40px;
+    border: 3px solid black;
+    margin-bottom: .5em;
 }
 
 .fates {
     text-align: center;
-    letter-spacing: .1em;
+    letter-spacing: .2em;
     font-family: fantasy;
     text-shadow: 2px 2px 2px rgb(185, 110, 255);
     margin-top: 0;
+    margin-bottom: .2em;
+}
+
+.fatelist {
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .fate {
     font-size: 1.5em;
     font-weight: 600;
-    line-height: 2em;
+    line-height: 1.5em;
     padding: .2em;
+    border-radius: .7em;
+    padding: 0px 10px;
+    
+    background-color: mediumpurple;
+}
+
+.fate:hover {
+    box-shadow: 4px 4px 5px rgb(209, 93, 255);
+    transition: .3s linear;
 }
 
 .skull {
-    height: 12em;
-    width: 12em;
-}
-
-ul {
-    list-style-type: upper-roman;
+    height: 11em;
+    width: 11em;
 }
 
 a:link {
@@ -82,8 +97,10 @@ a:hover:active {
 }
 
 a:hover {
-    text-decoration: none;color: black;
-    text-shadow: 3px 3px 5px rgb(185, 110, 255);
+    text-decoration: none;
+    color: black;
+    /*text-shadow: 3px 3px 5px rgb(250, 89, 237);*/
+    transition: .3s linear;
 }
 
 .story {
@@ -99,6 +116,7 @@ a:hover {
     max-width: 600px;
     position: relative;
     bottom: 80px;
+    border: 3px solid black;
 }
 
 @media screen and (max-width: 600px) {
@@ -122,7 +140,7 @@ a:hover {
     }
 
     .fate {
-        font-size: 1.5em;
+        font-size: 1.3em;
         font-weight: 600;
         line-height: 1.3em;
     }

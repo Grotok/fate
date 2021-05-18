@@ -21,14 +21,16 @@
                 <br/>
             <h2 class="fates">Choose Your Fate</h2>
             <img class="skull" src="images/doomskull.png" alt="">
-            <ul>
+            <div class="fatelist">
                 <a class="fate" href="#">Do you inspect the window further and attempt to open it?</a></br>
                 <a class="fate" href="#">Do you try to climb the trellis and look for a way in?</a></br>
-                <a class="fate" href="pg2.html" onclick="">You could try to force the front door open.</a></br>
+                <a id="kick" class="fate" href="pg2.html" onclick="kick()">You could try to force the front door open.</a></br>
                 <a class="fate" href="#">Your final option is to go back the way you came.</a>
-            </ul>
+            </div>
         </div>
     </div>
-    <audio id="kick" src="eerie.wav" loop="loop" autoplay="autoplay" onclick="kick()"></audio>
+    <audio src="eerie.wav" loop="loop" autoplay="autoplay"></audio>
+    <audio src="kick.wav"></audio>
+    <script src="main.js"></script>
 </body>
 </html>

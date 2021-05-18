@@ -1,3 +1,4 @@
 function kick() {
-    document.getElementById('kick').
+    let kick = document.getElementById('kick');
+    kick.kick();
 }
