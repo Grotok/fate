@@ -52,7 +52,7 @@ header {
     margin-bottom: .5em;
 }
 
-.fates {
+.choices {
     text-align: center;
     letter-spacing: .2em;
     font-family: fantasy;
@@ -65,8 +65,9 @@ header {
     margin-top: 1em;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+
 }
 
 .fate {
@@ -78,7 +79,7 @@ header {
     border-radius: .7em;
     padding: 10px 20px;
     
-    background-color: mediumpurple;
+    background-color: rgb(147, 112, 216, .7);
 }
 
 .fate:hover {
