@@ -5,9 +5,14 @@ h1 {
 }
 
 body {
-    background: black;
+    
     font-family: 'Dosis', sans-serif;
     overflow-y: auto;
+}
+
+body,
+html {
+    height: 100%;
 }
 
 p {
@@ -21,6 +26,10 @@ p {
     justify-content: center;
     align-content: center;
     justify-items: center;
+    background-image: url(./house.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 header {
@@ -30,7 +39,7 @@ header {
 .nightmare {
     border-radius: .5em;
     text-align: center;
-    background-color: blueviolet;
+    background-color: rgb(138, 43, 226, .8);
     font-size: 3em;
     padding: .5em;
     font-family: fantasy;
@@ -65,8 +74,9 @@ header {
     font-weight: 600;
     line-height: 1.5em;
     padding: .2em;
+    
     border-radius: .7em;
-    padding: 0px 10px;
+    padding: 10px 20px;
     
     background-color: mediumpurple;
 }
@@ -108,9 +118,9 @@ a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: blueviolet;
+    background-color: rgb(138, 43, 226, .8);
     margin: 5em 7em;
-    padding: 5em;
+    padding: 3em;
     border-radius: 2em;
     box-shadow: 5px 5px 3px rgb(185, 110, 255);
     max-width: 600px;
