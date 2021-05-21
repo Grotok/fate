@@ -6,3 +6,12 @@ kick.onload = function() {
         return false;
     
 };
+
+let force = document.getElementById('smash');
+let fly = document.getElementById('flykick');
+
+function showKick() {
+    fly.style.display = 'block';
+}
+
+force.onmouseover = showKick;

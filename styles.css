@@ -22,6 +22,7 @@ p {
 
 .wrapper {
     display: grid;
+    gap: 2em;
     grid-template-rows: 1fr auto 1fr;
     justify-content: center;
     align-content: center;
@@ -76,7 +77,7 @@ header {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-
+    gap: .3em
 }
 
 .fate {
@@ -89,6 +90,13 @@ header {
     padding: 10px 20px;
     
     background-color: rgb(147, 112, 216, .8);
+}
+
+#flykick {
+    display: none;
+    height: 11em;
+    width: 11em;
+    z-index: 5;
 }
 
 .fate:hover {
@@ -140,15 +148,14 @@ a:hover {
 
 @media screen and (max-width: 600px) {
     .nightmare {
-        font-size: 2em;
+        font-size: 1.8em;
         top: .8em;
         margin-bottom: .5em;
     }
 
     .story {
         padding: 1.2em;
-        margin: 5em 1em;
-        margin-top: 6em;
+        margin: 2em 1em;
         margin-bottom: 1em;
         font-size: .9em;
     }
