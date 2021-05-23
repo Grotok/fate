@@ -87,7 +87,7 @@ header {
     font-weight: 600;
     line-height: 1.5em;
     padding: .2em;
-    width: 22em;
+    
     border-radius: .7em;
     padding: 10px 20px;
     
@@ -173,5 +173,15 @@ a:hover {
         font-weight: 600;
         line-height: 1.3em;
         box-shadow: 4px 4px 5px rgb(209, 93, 255);
+    }
+}
+
+@media screen and (max-width: 340px) {
+    header {
+        max-width: 280px;
+    }
+
+    .nightmare {
+        font-size: 1.6em;
     }
 }
