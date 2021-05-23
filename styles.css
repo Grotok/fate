@@ -42,8 +42,9 @@ header {
     text-align: center;
     background-color: rgb(138, 43, 226, .8);
     font-size: 3em;
+    font-weight: bold;
     padding: .5em;
-    font-family: fantasy;
+    font-family: 'Amatic SC', cursive;
     letter-spacing: .1em;
     text-shadow: 3px 3px 3px rgb(185, 110, 255);
     z-index: 5;
@@ -65,7 +66,8 @@ header {
 .choices {
     text-align: center;
     letter-spacing: .2em;
-    font-family: fantasy;
+    font-family: 'Amatic SC', cursive;
+    font-weight: 700;
     text-shadow: 2px 2px 2px rgb(185, 110, 255);
     margin-top: 0;
     margin-bottom: .2em;
@@ -77,7 +79,7 @@ header {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    gap: .3em
+    gap: .4em
 }
 
 .fate {
@@ -85,7 +87,7 @@ header {
     font-weight: 600;
     line-height: 1.5em;
     padding: .2em;
-    
+    width: 22em;
     border-radius: .7em;
     padding: 10px 20px;
     
@@ -149,6 +151,7 @@ a:hover {
 @media screen and (max-width: 600px) {
     .nightmare {
         font-size: 1.8em;
+        font-family: 'Shadows Into Light', cursive;
         top: .8em;
         margin-bottom: .5em;
     }
@@ -169,5 +172,6 @@ a:hover {
         font-size: 1.3em;
         font-weight: 600;
         line-height: 1.3em;
+        box-shadow: 4px 4px 5px rgb(209, 93, 255);
     }
 }
